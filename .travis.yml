@@ -6,6 +6,3 @@ node_js:
 branches:
   only:
     - master
-
-before_script:
-  - echo "INSTRUMENTS_HOSTNAME=localhost\nINSTRUMENTS_PORT=3000" >> .env
