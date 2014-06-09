@@ -1,5 +1,7 @@
 # Instruments
 
+[![Build Status](https://travis-ci.org/tanem/instruments.png)](https://travis-ci.org/tanem/instruments)
+
 A little metrics dashboard created as an excuse to play around with [Koa](http://koajs.com/), [Component](http://component.io/) and [Socket.IO](http://socket.io/).
 
 ![](https://raw.github.com/tanem/instruments/master/instruments.png)

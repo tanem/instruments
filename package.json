@@ -1,6 +1,6 @@
 {
   "name": "instruments",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Look, another dashboard.",
   "main": "index.js",
   "dependencies": {
