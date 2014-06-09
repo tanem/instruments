@@ -1,6 +1,6 @@
 {
   "name": "instruments",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Look, another dashboard.",
   "main": "index.js",
   "dependencies": {
@@ -10,7 +10,6 @@
     "koa-body": "0.0.4",
     "koa-router": "^3.1.4",
     "socket.io": "^0.9.17",
-    "habitat": "^1.1.0",
     "co": "^3.0.6",
     "co-sleep": "0.0.1",
     "thunkify": "^2.1.1",
