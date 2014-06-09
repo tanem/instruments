@@ -2,7 +2,7 @@
 
 A little metrics dashboard created as an excuse to play around with [Koa](http://koajs.com/), [Component](http://component.io/) and [Socket.IO](http://socket.io/).
 
-![](https://raw.github.com/tanem/instruments/master/screenshot.png)
+![](https://raw.github.com/tanem/instruments/master/instruments.png)
 
 The data for the demo is pulled from a demo of an old favourite game of mine ... [Bruce Lee](https://www.youtube.com/watch?v=CX8jdKNO4t8).
 
