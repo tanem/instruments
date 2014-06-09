@@ -6,7 +6,7 @@ A little metrics dashboard created as an excuse to play around with [Koa](http:/
 
 ![](https://raw.github.com/tanem/instruments/master/instruments.png)
 
-The data for the demo is pulled from a demo of an old favourite game of mine ... [Bruce Lee](https://www.youtube.com/watch?v=CX8jdKNO4t8).
+The data for the demo is pulled from a demo of an old favourite game of mine -> [Bruce Lee](https://www.youtube.com/watch?v=CX8jdKNO4t8).
 
 ![](https://raw.github.com/tanem/instruments/master/brucelee.png)
 
