@@ -1,0 +1,22 @@
+{
+  "noyield": true,
+  "esnext": true,
+  "browser": true,
+  "node": true,
+  "unused": true,
+  "undef": true,
+  "trailing": true,
+  "expr": true,
+  "globals": {
+    "it": false,
+    "describe": false,
+    "before": true,
+    "beforeEach": false,
+    "io": false,
+    "source": false,
+    "sinon": false,
+    "co": true,
+    "request": true,
+    "path": true
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background: ghostwhite;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.instruments {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.instrument {
+  float: left;
+  width: 250px;
+  text-align: center;
+}
+
+.instrument-score {
+  width: 1000px;
+}
+
+.tweening-counter {
+  font-size: 6em;
+}

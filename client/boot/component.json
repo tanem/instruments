@@ -1,0 +1,17 @@
+{
+  "name": "boot",
+  "description": "Main app boot component.",
+  "dependencies": {
+    "tanem/tweening-counter": "~4.1.0",
+    "component/query": "~0.0.3",
+    "yields/before": "~0.1.0"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "locals": [],
+  "remotes": []
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>instruments</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="build.css">
+</head>
+<body>
+  <header>
+    <h1>Instruments</h1>
+  </header>
+  <ul class="instruments">
+    <li class="instrument instrument-score">
+      <p class="js-score-label">Score</p>
+    </li>
+    <li class="instrument">
+      <p class="js-lanterns-gathered-label">Lanterns gathered</p>
+    </li>
+    <li class="instrument">
+      <p class="js-ninjas-kicked-label">Ninjas kicked</p>
+    </li>
+    <li class="instrument">
+      <p class="js-yamos-kicked-label">Yamos kicked</p>
+    </li>
+    <li class="instrument">
+      <p class="js-yamos-kod-label">Yamos kod</p>
+    </li>
+  </ul>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="build.js"></script>
+</body>

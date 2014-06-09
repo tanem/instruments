@@ -1,0 +1,18 @@
+{
+  "name": "instruments",
+  "repository": "tanem/instruments",
+  "description": "Look, another dashboard.",
+  "version": "1.0.0",
+  "keywords": [
+    "instrument",
+    "dashboard",
+    "hud"
+  ],
+  "license": "MIT",
+  "locals": [
+    "boot"
+  ],
+  "paths": [
+    "client"
+  ]
+}
