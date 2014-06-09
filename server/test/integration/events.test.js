@@ -3,8 +3,8 @@ describe('POST /api/events', function(){
   it('should create a valid event', function(done){
     request
       .post('/api/events')
-      .set('Accept', 'application/json')
       .send({ name: 'lantern gathered' })
+      .set('Accept', 'application/json')
       .expect('Content-Type', /json/)
       .expect(201)
       .expect({ name: 'lantern gathered', id: 1 }, done);

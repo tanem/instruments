@@ -26,10 +26,14 @@ module.exports = function(){
       instruments.config.hostname,
       function(){
         var address = this.address();
+        var hostname = address.address;
+        var port = address.port;
+        instruments.config.hostname = hostname;
+        instruments.config.port = port;
         co(startPublisher)();
-        logger.info('instruments listening at http://%s/%d', address.address, address.port);
+        logger.info('instruments listening at http://%s:%d', hostname, port);
         if (_.isFunction(cb)) cb();
-        if (instruments.config.env === 'demo') startDemo(address.address, address.port);
+        if (instruments.config.env === 'demo') startDemo(hostname, port);
       }
     );
   };

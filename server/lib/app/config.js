@@ -1,9 +1,7 @@
-var env = require('../env');
-
 module.exports = function(instruments){
   instruments.config = {
-    hostname: env.get('instrumentsHostname'),
-    port: env.get('instrumentsPort'),
-    env: env.get('nodeEnv')
+    hostname: process.env.INSTRUMENTS_HOSTNAME || null,
+    port: process.env.INSTRUMENTS_PORT || 0,
+    env: process.env.NODE_ENV
   };
 };

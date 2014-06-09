@@ -1,6 +1,6 @@
 {
   "name": "instruments",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Look, another dashboard.",
   "main": "index.js",
   "dependencies": {
@@ -35,7 +35,7 @@
   "author": "https://github.com/tanem",
   "license": "MIT",
   "scripts": {
-    "start": "node --harmony server",
-    "test": "mocha --harmony --reporter spec server/test/unit/helpers/globals.js server/test/unit/*.test.js server/test/integration/helpers/globals.js server/test/integration/helpers/server.js server/test/integration/*.test.js"
+    "start": "INSTRUMENTS_HOSTNAME=127.0.0.1 INSTRUMENTS_PORT=3000 NODE_ENV=demo node --harmony server",
+    "test": "NODE_ENV=test mocha --harmony --reporter spec server/test/unit/helpers/globals.js server/test/unit/*.test.js server/test/integration/helpers/globals.js server/test/integration/helpers/server.js server/test/integration/*.test.js"
   }
 }

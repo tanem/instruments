@@ -18,15 +18,9 @@ Ensure node 0.11.x is installed ([n](https://github.com/visionmedia/n) is a conv
 $ npm install
 ```
 
-Environment variables are managed by [habitat](https://github.com/brianloveswords/habitat). Create a `.env` file at the project root specifying the hostname, port and environment you want the app to run with. Supported environments are `dev`, `test` and `demo`. For example:
+Supported environment variables are `INSTRUMENTS_HOSTNAME` (defaults to `localhost`), `INSTRUMENTS_PORT` (defaults to a random port) and `NODE_ENV`. Supported `NODE_ENV` values are `dev`, `test` and `demo`. See `scripts.start` in `package.json`.
 
-```sh
-$ echo "export INSTRUMENTS_HOSTNAME=localhost" >> .env
-$ echo "export INSTRUMENTS_PORT=3000" >> .env
-$ echo "export NODE_ENV=demo" >> .env
-```
-
-Start the app:
+To start the app:
 
 ```sh
 $ npm start

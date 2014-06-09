@@ -10,7 +10,8 @@ module.exports = function(db, registry){
       this.body = { message: 'invalid event name' };
     } else {
       this.status = 201;
-      this.body = db.insert(data);
+      this.type = 'application/json';
+      this.body = JSON.stringify(db.insert(data));
     }
   };
 

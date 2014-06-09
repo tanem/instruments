@@ -1,10 +1,8 @@
 // Start the server prior to running any integration tests.
-var Instruments = require('../../../lib/app');
-
 before(function(done){
-  var instruments = new Instruments();
+  var instruments = source('app')();
   instruments.start(function(){
-    request = request('http://localhost:3000');
+    request = request(instruments.app.callback());
     done();
   });
 });

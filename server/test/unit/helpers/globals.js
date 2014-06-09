@@ -8,6 +8,3 @@ global.co = require('co');
 global.source = function(sourcePath){
   return require(path.join('../../../lib', sourcePath));
 };
-
-// Run in the correct env.
-source('env').set('NODE_ENV', 'test');

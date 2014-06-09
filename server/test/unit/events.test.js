@@ -25,7 +25,7 @@ describe('events', function(){
       var ctx = { request: { body: { name: 'foo' } } };
       co(events.create).call(ctx, function(){
         ctx.status.should.equal(201);
-        ctx.body.should.eql({ name: 'foo' });
+        ctx.body.should.eql(JSON.stringify({ name: 'foo' }));
         done();
       });
     });
