@@ -3,7 +3,7 @@ var co = require('co');
 var koa = require('koa');
 var path = require('path');
 var thunkify = require('thunkify');
-var _ = require('lodash');
+var isFunction = require('lodash.isfunction');
 var readdir = thunkify(fs.readdir);
 var dbStore = require('../db/store');
 var db = require('../db')(dbStore);
@@ -32,7 +32,7 @@ module.exports = function(){
         instruments.config.port = port;
         co(startPublisher)();
         logger.info('instruments listening at http://%s:%d', hostname, port);
-        if (_.isFunction(cb)) cb();
+        if (isFunction(cb)) cb();
         if (instruments.config.env === 'demo') startDemo(hostname, port);
       }
     );

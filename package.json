@@ -1,6 +1,6 @@
 {
   "name": "instruments",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Look, another dashboard.",
   "main": "index.js",
   "dependencies": {
@@ -15,7 +15,8 @@
     "thunkify": "^2.1.1",
     "q": "^1.0.1",
     "bunyan": "^0.23.1",
-    "lodash": "^2.4.1"
+    "lodash.merge": "^2.4.1",
+    "lodash.isfunction": "^2.4.1"
   },
   "devDependencies": {
     "supertest": "^0.13.0",

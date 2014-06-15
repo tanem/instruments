@@ -1,9 +1,9 @@
 var bunyan = require('bunyan');
-var _ = require('lodash');
+var merge = require('lodash.merge');
 var config = require('./config');
 
 module.exports = bunyan.createLogger(
-  _.merge(
+  merge(
     {
       name: 'instruments'
     },
