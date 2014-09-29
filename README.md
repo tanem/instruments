@@ -8,8 +8,6 @@ A little metrics dashboard created as an excuse to play around with [Koa](http:/
 
 The data for the demo is pulled from a demo of an old favourite game of mine -> [Bruce Lee](https://www.youtube.com/watch?v=CX8jdKNO4t8).
 
-![](https://raw.github.com/tanem/instruments/master/brucelee.png)
-
 ## Start
 
 Ensure node 0.11.x is installed ([n](https://github.com/visionmedia/n) is a convenient tool for Node version management), then install the dependencies:
